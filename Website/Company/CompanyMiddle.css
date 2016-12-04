@@ -1,0 +1,71 @@
+#MiddleDivide {
+				height: 103vh; 
+}
+
+#Space1 {
+				clear: both; 
+				height: 7vh; 
+				position: relative;  
+				min-height:50px
+}
+
+
+#DeveloperTitleArea {
+				clear: both; 
+				height: 90px; 
+				position: relative; 
+}
+
+
+#DeveloperTitleBox {
+				width: 40%; 
+				height: 100%; 
+				position: relative; 
+				margin: 0 auto; 
+				text-align:center; 
+				display:table
+}
+
+
+#DeveloperTitleText {
+				display:table-cell; 
+				vertical-align:middle; 
+				text-align:center; 
+				font-size:70px
+}
+
+#Space2 {
+				clear:both; 
+				height: 30px; 
+				position: relative; 
+}
+
+
+#HistoryTextContainer {
+				clear: both; 
+				height: 490px; 
+				position: relative; 
+}
+
+
+
+#HistoryText {
+				width:800px; 
+				height: 100%; 
+				position: relative; 
+				margin: 0 auto
+}
+
+
+#Paragraph {
+				position: absolute; 
+				top: 50px; 
+				left:40px; 
+				width: 92%
+}
+					
+					
+
+					
+					
+					

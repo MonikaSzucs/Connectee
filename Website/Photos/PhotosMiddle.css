@@ -1,0 +1,78 @@
+
+
+#Space1 {
+				clear: both; 
+				height: 7vh; 
+				position: relative; 
+				min-height:50px
+}
+
+#DeveloperTitleArea {
+				clear: both; 
+				height: 90px; 
+				position: relative;
+}
+
+#DeveloperTitleBox {
+				width: 40%; 
+				height: 100%; 
+				position: relative; 
+				margin: 0 auto; 
+				text-align:center; 
+				display:table
+}
+
+#DeveloperTitleText {
+				display:table-cell; 
+				vertical-align:middle; 
+				text-align:center; 
+				font-size:70px
+}
+
+#LogoInside {	
+				position: relative; 
+				padding-top: 2px; 
+				text-align: left
+}
+
+#Space2 {
+				clear:both; 
+				height: 30px; 
+				position: relative; 
+}
+
+#PictureOuterContainer {
+				clear: both; 
+				height: 400px; 
+				position: relative; 
+}
+
+#PictureInnerContainer {
+				width:900px; 
+				height: 100%; 
+				position: relative; 
+				margin: 0 auto
+}
+
+
+
+/* Pictures Area */
+
+#FirstPictureRow {
+				height: 50%; 
+				display:flex
+}
+
+#LeftBox {
+				height:100%; 
+				width: 30%; 
+				position: relative
+}
+
+#Space7 {
+				height:100%; 
+				clear:both; 
+				width: 5%;
+}
+				
+				

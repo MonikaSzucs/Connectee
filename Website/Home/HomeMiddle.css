@@ -1,0 +1,81 @@
+
+#LogoBox {
+			position: relative
+}
+
+#LogoInside {
+			position: relative; 
+			margin: 0 auto; 
+			text-align:center;
+}
+
+
+#Space2 {
+			clear:both; 
+			height: 20px; 
+			position: relative
+}
+
+
+/* Connectee Name */
+#ConnecteeArea {
+			clear: both; 
+			height: 80px; 
+			position: relative
+}
+
+#ConnecteeBox {
+			width: 40%; 
+			height: 100%; 
+			position: 
+			relative; 
+			margin: 0 auto; 
+			text-align:center; 
+			display:table
+}
+
+#ConecteeText {
+			display:table-cell; 
+			vertical-align:middle; 
+			text-align:center; 
+			font-size:70px
+}
+
+#Space3 {
+			clear:both; 
+			height: 50px; 
+			position: relative;
+}
+
+
+/* Sign up and log in buttons*/
+#ButtonArea {
+			clear: both; 
+			height: 75px; 
+			position: relative;
+}
+
+#OuterBoxButtonArea {
+			width:770px; 
+			height: 100%; 
+			position: relative; 
+			margin: 0 auto; 
+}
+
+#ButtonLeftBox {
+			width: 43%; 
+			height:100%; 
+			float: left;
+}
+
+#SpaceBetweenButtonBoxs {
+			width:14%; 
+			height:100%; 
+			float:left;
+}
+
+#ButtonRightBox {
+			width: 43%; 
+			height:100%; 
+			float:left;
+}

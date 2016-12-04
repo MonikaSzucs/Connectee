@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>How To Keep Your Footer At The Bottom of The Page - CSSReset.com</title>
+	
+	<link rel="stylesheet" type="text/css" href="../Wrapper.css">
+	<link rel="stylesheet" type="text/css" href="../Header.css">
+	<link rel="stylesheet" type="text/css" href="../Footer.css">
+	<link rel="stylesheet" type="text/css" href="../Content.css">
+	<link rel="stylesheet" type="text/css" href="ContactUsMiddle.css">
+	
+	
+</head>
+
+<body>
+
+<!--Wrapper Start-->
+	<div id="wrapper">
+		
+<!--Header-->
+		<div id="header">
+		
+			<div id="headercontainer">
+				<div id="LogoInside" style="position: absolute; padding-top: 2px; text-align: left">
+					<a href="../Home/Home.html"><img src="../../Logo/LogoMain.png" alt="Logo" style="width:70px;"/> </a>
+				</div>
+				<div id="TopBannerBoxRight">
+					<ul>
+						<li><a class="ChangeColor" href="../Features/Features.html">Features</a></li>
+						&nbsp; | &nbsp;
+						<li>
+							<div class="dropdown">
+							<span>Photos</span>
+							<div class="dropdown-content">
+							<p><a class="ChangeColor" href="../Photos/PhotosDevelopment.html">Development</a></p>
+							<p><a class="ChangeColor" href="../Photos/PhotosCommunity.html">Community</a></p>
+							</div>
+							</div>
+						</li>
+						&nbsp; | &nbsp;
+						<li>
+							<div class="dropdown">
+							<span>Company</span>
+							<div class="dropdown-content">
+							<p><a class="ChangeColor" href="../Company/CompanyHistory.html">History</a></p>
+							<p><a class="ChangeColor" href="../Company/CompanyTeam.html">Team</a></p>
+							</div>
+							</div>
+						&nbsp; | &nbsp;
+						<li><a class="Here" href="../ContactUs/ContactUs.html">Contact Us</a></li>
+						&nbsp; | &nbsp;
+						<li><a class="ChangeColor" href="../LogIn/LogIn.html">Log In</a></li>
+					</ul>
+				</div>
+			</div>
+		
+		
+		</div><!-- #header -->
+
+<!-- Content Start-->
+		<div id="content">
+		
+<!-- Space in between-->
+			<div id="Space1">
+			</div>
+			
+
+<!-- Contacts Us title-->
+			<div id="DeveloperTitleArea">
+				<div id="DeveloperTitleBox">
+					<div id="DeveloperTitleText">
+						Contact Us
+					</div>
+				</div>
+			</div>
+
+<!-- Space in between-->
+			<div class="Space2" style="clear:both; height: 30px; position: relative;">
+			</div> 
+			
+<!-- Contact Us  Boxes Area-->
+ 			<div id="HistoryTextContainer" style="clear: both; height: 500px; position: relative; 
+			width: 1050px; margin: 0 auto; display:flex">
+			
+			<!--LeftBox containing Contact Form-->
+				<div style="width:47%; height:100%; padding-left: 30px">
+						
+					<div id="FirstPictureRow" style="height: 100%; display:flex">
+						<div class="LeftBox" style="height:100%; width: 100%; position: relative">
+							<img src="../../Boxes/RedBox.png" style="position:absolute; top:0; left:0; height: 100%; width: 100%; box-shadow: -1px 1px 4px 6px rgba(0,0,0,0.1); opacity:0.5" >
+					
+					<div id="Textovertop" style="position:absolute">
+					<h1 style="text-align: center; color:black; padding-left:47px">Form </h1>
+                    <form method="post">
+                        <table>
+							<tr>
+								<td>
+									<td style="text-align:right; padding-left:20px; padding-top: 10px; color:black">First Name:</td>
+									<td><input pattern="[A-Za-z]+" type="text" id="FirstName" name="FirstName" title="Enter in your first name. Letters only. [A-Za-z]" 
+									required style="width: 100%"/></td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<td style="text-align:right; color:black">Last Name:</td>
+									<td><input pattern="[A-Za-z]+" type="text" id="LastName" name="LastName" title="Enter in your last name. Letters only. [A-Za-z]" 
+									required style="width: 100%"/></td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<td style="text-align:right; color:black">Email:</td>
+									<td><input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="text" id="Email" name="Email" required style="width: 100%"
+									title="enter in a valid email address example: abc@hotmail.com"/></td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<td>
+										&nbsp;
+									</td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<td style="text-align:right; color:black">Topic:</td>
+									<td>
+										<Select> 
+											<option value="ChooseOne" disabled="diabled" selected="selected">Choose one</option>
+											<option value="FakeProfile">Fake Profile</option>
+											<option value="SecurityIssue">Security Issue</option>
+											<option value="Updates">Updates</option>
+											<option value="Concerns">Concerns</option>
+											<option value="Profile">Profile</option>
+											<option value="CreatingProjects">Creating Projects</option>
+											<option value="Helping Projects">Helping Projects</option>
+										</Select>
+									</td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<td>
+										&nbsp;
+									</td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<td style="text-align:right; vertical-align:top; color:black">Message:</td>
+									<td><textarea id="TextArea" name="TextArea" required style="height: 120px; width: 100%"/></textarea></td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<td>
+										&nbsp;
+									</td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<td style="text-align:right">
+									<input type="checkbox" name="TermsAndConditions" value="TermsAndConditions" required/>
+									</td>
+									<td style="color:black">
+									I have read and agree to the Terms and Conditions.
+									</td>
+								<td>
+							</tr>
+							<tr>
+								<td>
+									<td>
+										&nbsp;
+									</td>
+								</td>
+							</tr>
+						</table>
+						<div style="text-align: center; padding-left:45px">
+						<button type="submit">Submit</button>
+						<button type="reset" value="Reset">Reset</button>
+						</div>
+                    </form>
+					</div>
+					
+
+					</div>
+					</div>
+					
+				</div>
+				
+			<!--Vertical Space-->
+				<div style="width:6%; height:100%;">
+				</div>
+				
+			<!--RightBox Containing Map and Company Contact information-->
+				<div style="width:47%; height:100%;">
+					<div style="width:100%; height: 47%;">
+						
+						<div style="height:100%; width:250px; display: table; margin: 0 auto; vertical-align: middle">
+				
+				<!-- Map -->
+							<div id="FirstPictureRow" style="height: 100%; display:flex">
+							<div class="LeftBox" style="height:100%; width: 100%; position: relative">
+							<img src="../../Boxes/BlackBox.png" style="position:absolute; top:0; left:0; height: 110%; top:-12px; width: 400px; left:-75px; box-shadow: -1px 1px 4px 6px rgba(0,0,0,0.1); opacity:0.5" >
+
+						<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'>
+						</script><div style='overflow:hidden;height:100%;width:100%;'>
+						<div id='gmap_canvas' style='height:100%;width:100%;'>
+						</div><div><small><a href="http://embedgooglemaps.com">embed google maps</a>
+						</small></div><div><small>
+						<a href="https://www.autohuren.world/">op alle populaire bestemmingen</a>
+						</small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+						</div>
+						<script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(49.2487418,-123.00090749999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(49.2487418,-123.00090749999998)});infowindow = new google.maps.InfoWindow({content:'<strong>Connectee</strong><br>3700 Willingdon Ave, Burnaby, BC V5G 3H2<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+							</div>
+							</div>
+
+						</div>
+		
+					</div>
+					
+				<!--Space-->
+					<div style="width:100%; height:6%;">
+					</div>
+					
+				<!--Company Contact Information -->
+					<div style="width:100%; height: 47%; display:flex">
+						<div style="height:100%; width: 25%">
+						</div>
+						<div style="height:100%; width:75%">
+							
+							<div id="FirstPictureRow" style="height: 100%; display:flex">
+							<div class="LeftBox" style="height:100%; width: 100%; position: relative">
+							<img src="../../Boxes/GreyBox.png" style="position:absolute; top:0; left:0; height: 100%; width: 400px; left:-80px; box-shadow: -1px 1px 4px 6px rgba(0,0,0,0.1); opacity:0.5" >
+					
+								<div style="position:absolute">
+								<br>
+								<b style="font-size:18px"> Contact Information</b><br>
+								<br>
+								<div style="font-size:14px">
+									Connectee <br>
+									Monika Szucs <br>
+									CEO<br>
+									3700 Willingdon Avenue<br>
+									Burnaby, BC<br>
+								</div>
+								<br>
+								<b style="font-size:15px">Phone:</b> 604-253-1422<br>
+								<br>
+								<b style="font-size:15px">Email:</b> monikaszucsbusiness@hotmail.com
+                                </div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+	</div>			
+			
+
+<!--Footer-->
+		<div id="footer">
+			<div id="footercontainer">
+				<div id="FooterLeftBox">
+
+					Copyright © 2016 Connectee
+
+				</div>
+				<div id="FooterRightSpace">
+				</div>
+				<div id="FooterRightBox">
+					<ul id="FooterRightBoxText">
+						<li><a class="ChangeColor" href="../Downloads/Downloads.html">Downloads</a></li>
+						&nbsp; | &nbsp;
+						<li><a class="ChangeColor" href="../FAQ/FAQPrivacy.html">FAQ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+<!-- #footer End-->
+		
+	</div><!-- #wrapper End-->
+	
+</body>
+
+</html>			
+			
+
+
+			
+			
+			

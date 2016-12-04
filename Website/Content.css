@@ -1,0 +1,14 @@
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+
+}
+
+
+#Space1 {
+			clear: both; 
+			height: 7vh; 
+			position: relative; 
+			min-height:50px
+
+}
+

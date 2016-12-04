@@ -1,0 +1,132 @@
+
+
+#Space1 {
+				clear: both; 
+				height: 9vh;
+				position: relative; 
+				min-height:50px
+}
+
+#FeaturesArea {
+				clear: both; 
+				height: 90px; 
+				position: relative;
+}
+
+#FeaturesBox {
+				width: 40%; 
+				height: 100%; 
+				position: relative; 
+				margin: 0 auto; 
+				text-align:center; 
+				display:table
+}
+
+#FeaturesText {
+				display:table-cell; 
+				vertical-align:middle; 
+				text-align:center; 
+				font-size:70px
+}
+
+#Space5 { 
+				clear:both; 
+				height: 20px; 
+				position: relative;
+				background-color: orange;
+}
+
+#FPButtonArea {
+				clear: both; 
+				height: 120px; 
+				position: relative;
+}
+
+#FPOuterBoxButtonArea {
+				width:770px; 
+				height: 100%; 
+				position: relative; 
+				margin: 0 auto
+}
+
+#FPButtonLeftBox {
+				width: 30%; 
+				height:100%; 
+				float: left;
+}
+
+#FPButtonRightBox {
+				width: 30%; 
+				height:100%; 
+				float:right;
+}
+
+#Space4 {
+				height: 50px;
+}
+
+#FPInformationAreaTitle {
+				clear: both; 
+				height: 70px; 
+				position: relative
+}
+
+#FPOuterBoxInformationAreaTitle {
+				width:770px; 
+				height: 100%; 
+				position: relative; 
+				margin: 0 auto
+}
+
+#FPInformationLeftBoxTitle {
+				width: 46%; 
+				height:100%; 
+				float: left; 
+				text-align: center;
+				font-size:50px
+}
+
+
+#FPInformationRightBoxTitle {
+				width: 46%; 
+				height:100%; 
+				float:right; 
+				text-align: center;
+				font-size: 50px
+}
+
+#FPInformationArea {
+				clear: both; 
+				height: 90px; 
+				position: relative;
+}
+
+#FPOuterBoxInformationArea {
+				width:770px; 
+				height: 100%; 
+				position: relative; 
+				margin: 0 auto
+}
+
+
+#FPInformationLeftBox {
+				width: 46%; 
+				height:100%; 
+				float: left; 
+				text-align: center;
+				font-size:20px
+}
+
+				
+
+#FPInformationRightBox {
+				width: 46%; 
+				height:100%; 
+				float:right; 
+				text-align: center;
+				font-size: 20px
+}
+
+
+
+
